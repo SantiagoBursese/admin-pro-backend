@@ -16,6 +16,8 @@ app.use(express.json())
 //Base de datos
 dbConnection();
 
+// Directorio publico
+app.use(express.static('public'))
 
 //NOSQ1YbbB4ely7Mw
 //mean_user
